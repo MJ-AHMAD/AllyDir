@@ -83,6 +83,49 @@ by, **<a href="https://t-allybd.vercel.app/">MJ-AHMAD</a>**
 ---
 # mjahmad_mail
 
+```
+Please Help me.
+ 
+Your Support Can Help Me Regain My Health
+To,
+
+The Director,
+
+bKash Limited
+
+Dhaka-1206
+
+
+Subject: Application regarding the unblocking of my bKash account.
+
+Dear Sir,
+
+I am Md. Jafor Ahmad, NID No. 3734108768, BKash mobile number +880 1920082926. I am a Microsoft web developer and have always worked with integrity and ethics in my professional life. Recently, my bKash account has been blocked based on some false allegations, which has created a significant obstacle in my professional and personal life.
+
+I request you to consider that the allegations against me are false and that I am not involved in any wrongdoing or fraud. My LinkedIn, GitHub, and website profiles bear evidence of my honesty and professionalism. As a member of your organization, I have always conducted lawful and ethical transactions.
+
+I appeal to you to reactivate my account and allow me to resume normal transactions. I hope you will consider my situation and, based on my proven integrity, reactivate my account.
+
+Expecting your prompt and positive response,
+
+
+.
+
+Sincerely,
+Md. Jafor Ahmad
+27, Purana Paltan, Paltan,
+Dhaka - 1000
++880 1788856628
+
+ID Card File TIN Certificate
+Goal Image
+  
+
+© 2024
+
+MJ AHMAD. - All rights reserved.
+```
+
 ---
 # quraner_fariwala_mail
 
