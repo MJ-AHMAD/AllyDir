@@ -1,0 +1,206 @@
+{
+    "Cox's Bazar": [
+        {
+            "Name": "Syed Tarikul Islam",
+            "Email": "tarikul1964@gmail.com",
+            "Group": "Alliance for Cooperation and Legal Aids Bangladesh (ACLAB)"
+        },
+        {
+            "Name": "Shojib Rz",
+            "Email": "shojibrz1687@gmail.com",
+            "Group": "Alliance for Cooperation and Legal Aids Bangladesh (ACLAB)"
+        },
+        {
+            "Name": "COAST Trust Contact",
+            "Email": "info@coastbd.net",
+            "Group": "COAST Trust"
+        },
+        {
+            "Name": "IOM Contact",
+            "Email": "info@iom.int",
+            "Group": "International Organization for Migration (IOM)"
+        },
+        {
+            "Name": "WFP Contact",
+            "Email": "info@wfp.org",
+            "Group": "World Food Programme (WFP)"
+        }
+    ],
+    "global": [
+        {
+            "Name": "Media (Journalists)",
+            "Email": "UNDP-newsroom@undp.org",
+            "Group": "United Nations Development Programme (UNDP)"
+        },
+        {
+            "Name": "For media queries",
+            "Email": "communications.bgd@undp.org",
+            "Group": "United Nations Development Programme (UNDP)"
+        },
+        {
+            "Name": "For other queries",
+            "Email": "registry.bd@undp.org",
+            "Group": "United Nations Development Programme (UNDP)"
+        },
+        {
+            "Name": "Global Media Team",
+            "Email": "wfp.media@wfp.org",
+            "Group": "World Food Programme (WFP)"
+        },
+        {
+            "Name": "For media inquiries",
+            "Email": "farhana.shahnaz@wfp.org",
+            "Group": "World Food Programme (WFP)"
+        },
+        {
+            "Name": "Dhaka Office",
+            "Email": "WFP.Dhaka@wfp.org",
+            "Group": "World Food Programme (WFP)"
+        },
+        {
+            "Name": "Bangladesh Office",
+            "Email": "infobangladesh@unicef.org",
+            "Group": "United Nations Children’s Fund (UNICEF)"
+        },
+        {
+            "Name": "Careers and vacancies ",
+            "Email": "careers@theglobalfund.org",
+            "Group": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        },
+        {
+            "Name": "Country Coordinating Mechanisms",
+            "Email": "ccm@theglobalfund.org",
+            "Group": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        },
+        {
+            "Name": "Funding",
+            "Email": "accesstofunding@theglobalfund.org ",
+            "Group": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        },
+        {
+            "Name": "Press and media",
+            "Email": "press@theglobalfund.org",
+            "Group": "The Global Fund to Fight AIDS, Tuberculosis and Malaria"
+        },
+        {
+            "Name": "Dhaka - Mehrin Mahbub",
+            "Email": "mmahbub@worldbank.org",
+            "Group": "The World Bank"
+        },
+        {
+            "Name": "ICRC delegation",
+            "Email": "dha_rfl@icrc.org",
+            "Group": "International Committee of the Red Cross (ICRC)"
+        },
+        {
+            "Name": "Email",
+            "Email": "media@gatesfoundation.org",
+            "Group": "Bill & Melinda Gates Foundation"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "pressline@fordfoundation.org",
+            "Group": "Ford Foundation"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "media@opensocietyfoundations.org",
+            "Group": "Open Society Foundations"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "m.stratton@wellcome.org",
+            "Group": "The Wellcome Trust"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "himanshi.matta@oxfam.org ",
+            "Group": "Oxfam International"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "bgd.info@care.org",
+            "Group": "CARE International"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "India.Info@new-delhi.msf.org",
+            "Group": "Médecins Sans Frontières (Doctors Without Borders)"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "info.bangladesh@savethechildren.org",
+            "Group": "Save the Children"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "giving@asiafoundation.org",
+            "Group": "The Asia Foundation"
+        },
+        {
+            "Name": "Media inquiries",
+            "Email": "bangladesh.general@asiafoundation.org",
+            "Group": "The Asia Foundation"
+        },
+        {
+            "Name": "PULSE",
+            "Email": "pulse_cox@yahoo.com",
+            "Group": "The Conrad N. Hilton Foundation"
+        },
+        {
+            "Name": "Dhaka",
+            "Email": "DhakaMSU@iom.int",
+            "Group": "IOM"
+        },
+        {
+            "Name": "Cox's Bazar",
+            "Email": "tmahmud@iom.int",
+            "Group": "IOM"
+        },
+        {
+            "Name": "IOMDevelopment",
+            "Email": "IOMDevelopmentFund@iom.int",
+            "Group": "IOM"
+        },
+        {
+            "Name": "Bangladesh Office",
+            "Email": "bgdcoprt@unhcr.org, BGDFRD@unhcr.org",
+            "Group": "The United Nations High Commissioner for Refugees (UNHCR)"
+        },
+        {
+            "Name": "Media enquiries",
+            "Email": "ifad@ifad.org",
+            "Group": "The International Fund for Agricultural Development (IFAD)"
+        },
+        {
+            "Name": "Media enquiries",
+            "Email": "info@gavi.org, media@gavi.org, DCOfficeServices@gavi.org",
+            "Group": "The Global Alliance for Vaccines and Immunization (GAVI)"
+        }
+    ],
+    "Dhaka": [
+        {
+            "Name": "ASEAB Contact",
+            "Email": "info@aseab.org.bd",
+            "Group": "Association for Socio-Economic Advancement of Bangladesh (ASEAB)"
+        },
+        {
+            "Name": "UNICEF Webmaster",
+            "Email": "webmaster@unicef.org",
+            "Group": "UNICEF"
+        },
+        {
+            "Name": "BRAC Contact",
+            "Email": "info@brac.net",
+            "Group": "BRAC"
+        },
+        {
+            "Name": "Save the Children Supporter Care",
+            "Email": "supportercare@savechildren.org",
+            "Group": "Save the Children"
+        }
+    ]
+}
+
+
+
