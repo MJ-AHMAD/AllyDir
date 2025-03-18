@@ -5,6 +5,35 @@ The **Email Campaign Project** is designed to simplify the process of running em
 
 ---
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>T-Ally</summary>
+  <ol>
+    <li>
+      <a href="#about-us">About Us</a>
+      <ul>
+        <li><a href="#vision">Vision</a></li>
+          <li><a href="#our-mission">Our Mission</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#our-work">Our Work</a>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#specialties-of-trusted-ally">Specialties</a></li>
+      </ul>
+    </li>
+    <li><a href="#commitments-of-trusted-ally">Commitments</a></li>
+    <li><a href="#industry">Industry & Type</a></li>
+    <li><a href="#our-culture">Our Culture</a></li>
+    <li><a href="#approach-of-trusted-ally">Approach</a></li>
+    <li><a href="#code-of-conduct">Code of Conduct</a></li>
+    <li><a href="#investor-page-for-trusted-ally">Investor</a></li>
+    <li><a href="#contact-us">Contact</a></li>
+    <li><a href="#our-opportunity-and-responsibility">Our Opportunity and Responsibility</a></li>
+  </ol>
+</details>
+
 ## Features
 - **Template-Based Emails**: Customizable HTML email templates for visually appealing campaigns.
 - **Recipient Management**: Supports grouped email lists for targeted campaigns (e.g., Individuals, Businesses, Foundations).
