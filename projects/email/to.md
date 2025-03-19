@@ -213,6 +213,131 @@ https://v0-t-ally-umrah-packages.vercel.app/terms
 ---
 # discover_coxsbazar_links
 
+### Cox's Bazar Website Home Page
+```
+https://v0-cox-bazar-travel-project.vercel.app/
+```
+```
+https://vercel.com/ally-sea/v0-cox-bazar-travel-project/CkuZ9JupFcXGEk8Kd8L6neVfNrMq
+```
+### Book now
+```
+https://v0-cox-bazar-travel-project.vercel.app/booking
+```
+### The World's Longest Natural Sea Beach
+```
+https://v0-cox-bazar-travel-project.vercel.app/destinations/sea-beach
+```
+### Transportation
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/transportation
+```
+### Flight Services
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/flights
+```
+### Accommodation
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/accommodation
+```
+### Dining
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/dining
+```
+### Guided Tours
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
+```
+### Adventure Package
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
+```
+### Beach Resort
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/accommodation
+```
+### Island Tour
+```
+https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
+```
+## Beaches
+### Inani Beach
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/inani
+```
+### Laboni Beach
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/laboni
+```
+### Himchari Beach
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/himchari
+```
+## Islands
+### St. Martin's Island
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/st-martins
+```
+### Maheshkhali Island
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/maheshkhali
+```
+### Sonadia Island
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/sonadia
+```
+## Culture
+### Rakhaine Village
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/rakhaine-village
+```
+### Buddhist Temples
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/buddhist-temples
+```
+### Local Markets
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/local-markets
+```
+## Adventure
+### Water Sports
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/water-sports
+```
+
+### Marine Drive
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/marine-drive
+```
+
+### Hiking Trails
+```
+https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/hiking-trails
+```
+
+
+### About us
+
+### Contact us
+
+### Investment Proposal
+
+### Admin
+
+### Roals
+
+### Team member
+
+### Imploy dashbord
+
+### Managment
+
+### Time Shiduil
+
+### Privacy
+
+### Terms and Conditions
+
 ---
 # trusted_ally_links
 
