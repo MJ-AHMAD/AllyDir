@@ -152,4 +152,16 @@ MJ AHMAD. - All rights reserved.
 ---
 # mjahmad_links
 
+Help Email Link
+```
+https://v0-email-campaign-project.vercel.app/
+```
+```
+https://mj-ahmad.github.io/trusted-ally-dir/projects/email
+```
+Helping payment options
+```
+https://v0-email-campaign-project.vercel.app/support
+```
+
 ---
