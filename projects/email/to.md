@@ -210,169 +210,186 @@ https://v0-t-ally-umrah-packages.vercel.app/privacy
 ```
 https://v0-t-ally-umrah-packages.vercel.app/terms
 ```
----
-# discover_coxsbazar_links
 
-### Cox's Bazar Website Home Page
+---
+
+
+---
+### discover_coxsbazar_links
+
+**Cox's Bazar Website Links**
+
+- **Home Page**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/
 ```
 ```
 https://vercel.com/ally-sea/v0-cox-bazar-travel-project/CkuZ9JupFcXGEk8Kd8L6neVfNrMq
 ```
-### Book now
+- **Book now**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/booking
 ```
-### The World's Longest Natural Sea Beach
+- **The World's Longest Natural Sea Beach**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/destinations/sea-beach
 ```
-### Transportation
+- **Transportation**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/transportation
 ```
-### Flight Services
+- **Flight Services**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/flights
 ```
-### Accommodation
+- **Accommodation**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/accommodation
 ```
-### Dining
+- **Dining**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/dining
 ```
-### Guided Tours
+- **Guided Tours**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
 ```
-### Adventure Package
+- **Adventure Package**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
 ```
-### Beach Resort
+- **Beach Resort**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/accommodation
 ```
-### Island Tour
+- **Island Tour**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/services/guided-tours
 ```
-## Beaches
-### Inani Beach
+
+**Beaches**
+
+- **Inani Beach**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/inani
 ```
-### Laboni Beach
+- **Laboni Beach**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/laboni
 ```
-### Himchari Beach
+- **Himchari Beach**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/beaches/himchari
 ```
-## Islands
-### St. Martin's Island
+
+**Islands**
+
+- **St. Martin's Island**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/st-martins
 ```
-### Maheshkhali Island
+- **Maheshkhali Island**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/maheshkhali
 ```
-### Sonadia Island
+- **Sonadia Island**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/islands/sonadia
 ```
-## Culture
-### Rakhaine Village
+
+**Culture**
+
+- **Rakhaine Village**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/rakhaine-village
 ```
-### Buddhist Temples
+- **Buddhist Temples**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/buddhist-temples
 ```
-### Local Markets
+- **Local Markets**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/culture/local-markets
 ```
-## Adventure
-### Water Sports
+
+**Adventure**
+
+- **Water Sports**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/water-sports
 ```
 
-### Marine Drive
+- **Marine Drive**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/marine-drive
 ```
 
-### Hiking Trails
+- **Hiking Trails**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/attractions/adventure/hiking-trails
 ```
 
-
-
-### About us 
+**About us**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/about
 ```
-### Contact us
+**Contact us**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/contact
 ```
-### Privacy
+**Privacy**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/privacy-policy
 ```
-### Terms and Conditions
+**Terms and Conditions**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/terms-conditions
 ```
-### Travel policy
+**Travel policy**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/travel-policy
 ```
-### Cookie policy
+**Cookie policy**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/cookie-policy
 ```
-### Managment
+**Managment**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/management
 ```
-### Team member dashboard 
+**Team member dashboard**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/team-dashboard
 ```
-### Employee dashboard 
+**Employee dashboard**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/employee-dashboard
 ```
-### Admin 
+**Admin** 
 ```
-https://v0-cox-bazar-travel-project.vercel.app/
+https://v0-cox-bazar-travel-project.vercel.app/admin-dashboard
 ```
-### Investment Proposal
+**Investment Proposal**
 ```
-https://v0-cox-bazar-travel-project.vercel.app/
+https://v0-cox-bazar-travel-project.vercel.app/investment-proposal
 ```
-### Roals 
+**Roals** 
 ```
-https://v0-cox-bazar-travel-project.vercel.app/
+https://v0-cox-bazar-travel-project.vercel.app/roles
 ```
-### Time Shiduil 
+**Time Shiduil**
 ```
-https://v0-cox-bazar-travel-project.vercel.app/
+https://v0-cox-bazar-travel-project.vercel.app/schedule
 ```
-### Funding Proposal 
+**Funding Proposal**
 ```
 https://v0-cox-bazar-travel-project.vercel.app/funding-proposal
 ```
+**Guidance**
+```
+https://v0-cox-bazar-travel-project.vercel.app/guidance
+```
+
 
 ---
 # trusted_ally_links
