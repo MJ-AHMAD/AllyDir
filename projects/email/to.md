@@ -138,7 +138,78 @@ MJ AHMAD. - All rights reserved.
 ---
 
 # umrah_links
+### Admin directory
+```
+https://v0-t-ally-umrah-packages.vercel.app/admin/director-general
+```
+### Umrah Website Home Page
+```
+https://v0-t-ally-umrah-packages.vercel.app/
+```
+```
+https://vercel.com/ally-sea/v0-t-ally-umrah-packages/4Mv1cWFHs9b1NNPnJtzp37Aneqnf
+```
+### About us
+```
+https://v0-t-ally-umrah-packages.vercel.app/about
+```
+### Services
+```
+https://v0-t-ally-umrah-packages.vercel.app/services
+```
+### Packages
+```
+https://v0-t-ally-umrah-packages.vercel.app/packages
+```
+### Trusted Ally Umrah & Hajj Services - প্রোফাইল
+```
+https://v0-t-ally-umrah-packages.vercel.app/about/profile
+```
+### Trusted Ally Umrah & Hajj Services - Profile - en
+```
+https://v0-t-ally-umrah-packages.vercel.app/about/profile-en
+```
+### Investment Proposal
+```
+https://v0-t-ally-umrah-packages.vercel.app/investment/proposal
+```
+### Investment Bangla
+```
+https://v0-t-ally-umrah-packages.vercel.app/investment
+```
+### Investor/login
+```
+https://v0-t-ally-umrah-packages.vercel.app/investor/login
+```
+### Hajj-umrah-guidance
+```
+https://v0-t-ally-umrah-packages.vercel.app/hajj-umrah-guidance
+```
 
+### Management
+```
+https://v0-t-ally-umrah-packages.vercel.app/about/management
+```
+### Makkah
+```
+https://v0-t-ally-umrah-packages.vercel.app/makkah
+```
+### Madinah
+```
+https://v0-t-ally-umrah-packages.vercel.app/madinah
+```
+### Contact us
+```
+https://v0-t-ally-umrah-packages.vercel.app/contact
+```
+### Privacy
+```
+https://v0-t-ally-umrah-packages.vercel.app/privacy
+```
+### Terms and Conditions
+```
+https://v0-t-ally-umrah-packages.vercel.app/terms
+```
 ---
 # discover_coxsbazar_links
 
