@@ -3097,3 +3097,141 @@ git push origin staging
 
 
 
+---
+
+### বিস্তারিত নির্দেশনা
+
+## ১. shadcn কম্পোনেন্ট ইনস্টল করা
+
+আপনি যে কমান্ডটি দিয়েছেন (`npx shadcn@latest add "https://v0.dev/chat/b/0SE7moNwdYX?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..c5XTFN9HKz2Ug603.EZUsbB1vPPuoqOEEN2adhia8ocbr38u8NafiritE9Z4qzeh6m05NM2Db.xETwUacO17M1tFmQC6BimA"`) সেটি চালানোর জন্য:
+
+1. আপনার টার্মিনাল/কমান্ড প্রম্পট খুলুন
+2. `C:\Users\Public\mjahmad\tallydir\mcvb\` ডিরেক্টরিতে নেভিগেট করুন (আপনি ইতিমধ্যে সেখানে আছেন)
+3. নিম্নলিখিত কমান্ডটি চালান:
+
+```plaintext
+npx shadcn@latest add "https://v0.dev/chat/b/0SE7moNwdYX?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..c5XTFN9HKz2Ug603.EZUsbB1vPPuoqOEEN2adhia8ocbr38u8NafiritE9Z4qzeh6m05NM2Db.xETwUacO17M1tFmQC6BimA"
+```
+
+
+4. কমান্ড চালানোর সময় যদি কোন প্রম্পট আসে, তাহলে "y" টাইপ করে Enter চাপুন
+
+
+## ২. প্রজেক্ট গিটহাবে পুশ করা
+
+প্রজেক্টটি Vercel-এ ডিপ্লয় করার আগে, আপনার পরিবর্তনগুলি গিটহাবে পুশ করতে হবে:
+
+1. সমস্ত পরিবর্তন গিট স্টেজিং এরিয়াতে যোগ করুন:
+
+```plaintext
+git add .
+```
+
+
+2. পরিবর্তনগুলি কমিট করুন:
+
+```plaintext
+git commit -m "Added shadcn components"
+```
+
+
+3. পরিবর্তনগুলি গিটহাবে পুশ করুন:
+
+```plaintext
+git push origin main
+```
+
+(যদি আপনার ব্রাঞ্চের নাম "main" না হয়, তাহলে সেই ব্রাঞ্চের নাম ব্যবহার করুন)
+
+
+
+
+## ৩. Vercel-এ প্রজেক্ট তৈরি ও ডিপ্লয় করা
+
+### পদ্ধতি ১: Vercel CLI ব্যবহার করে
+
+1. প্রথমে Vercel CLI ইনস্টল করুন (যদি ইতিমধ্যে ইনস্টল না থাকে):
+
+```plaintext
+npm install -g vercel
+```
+
+
+2. Vercel-এ লগইন করুন:
+
+```plaintext
+vercel login
+```
+
+(এটি একটি ব্রাউজার উইন্ডো খুলবে যেখানে আপনি লগইন করতে পারবেন)
+
+
+3. প্রজেক্ট ডিপ্লয় করুন:
+
+```plaintext
+vercel
+```
+
+
+4. CLI আপনাকে কিছু প্রশ্ন জিজ্ঞাসা করবে:
+
+1. "Set up and deploy?" - `y` টাইপ করুন
+2. "Which scope do you want to deploy to?" - আপনার Vercel অ্যাকাউন্ট সিলেক্ট করুন
+3. "Link to existing project?" - `n` টাইপ করুন
+4. "What's your project's name?" - `mcvb` টাইপ করুন
+5. "In which directory is your code located?" - `.` টাইপ করুন (বর্তমান ডিরেক্টরি)
+6. "Want to override the settings?" - `n` টাইপ করুন
+
+
+
+
+
+### পদ্ধতি ২: Vercel ওয়েবসাইট ব্যবহার করে
+
+1. ব্রাউজারে [vercel.com](https://vercel.com) খুলুন এবং লগইন করুন
+2. ড্যাশবোর্ডে "Add New..." বাটনে ক্লিক করুন এবং "Project" সিলেক্ট করুন
+3. "Import Git Repository" সেকশনে আপনার গিটহাব অ্যাকাউন্ট সিলেক্ট করুন
+4. আপনার "mcvb" রিপোজিটরি খুঁজুন এবং "Import" বাটনে ক্লিক করুন
+5. প্রজেক্ট কনফিগারেশন পেজে:
+
+1. প্রজেক্টের নাম: `mcvb` রাখুন
+2. ফ্রেমওয়ার্ক প্রিসেট: Next.js সিলেক্ট করুন (যদি অটোমেটিক ডিটেক্ট না হয়)
+3. রুট ডিরেক্টরি: `.` রাখুন
+4. বিল্ড কমান্ড: ডিফল্ট রাখুন (`next build`)
+5. আউটপুট ডিরেক্টরি: ডিফল্ট রাখুন (`.next`)
+
+
+
+6. "Deploy" বাটনে ক্লিক করুন
+7. Vercel আপনার প্রজেক্ট ডিপ্লয় করবে এবং একটি লাইভ URL প্রদান করবে (যেমন: `https://mcvb.vercel.app`)
+
+
+## ৪. ডিপ্লয়মেন্ট পরীক্ষা করা
+
+1. ডিপ্লয়মেন্ট সম্পূর্ণ হলে, Vercel আপনাকে একটি URL দেবে (যেমন: `https://mcvb.vercel.app`)
+2. ব্রাউজারে এই URL-এ যান এবং আপনার ওয়েবসাইট দেখুন
+3. সমস্ত পেজ এবং ফাংশনালিটি পরীক্ষা করুন যাতে সবকিছু সঠিকভাবে কাজ করে
+
+
+## ৫. পরবর্তী আপডেট
+
+পরবর্তীতে আপনার প্রজেক্টে কোন পরিবর্তন করলে:
+
+1. পরিবর্তনগুলি গিটে কমিট করুন:
+
+```plaintext
+git add .
+git commit -m "আপনার কমিট মেসেজ"
+```
+
+
+2. গিটহাবে পুশ করুন:
+
+```plaintext
+git push origin main
+```
+
+
+3. Vercel স্বয়ংক্রিয়ভাবে আপনার পরিবর্তনগুলি ডিটেক্ট করবে এবং নতুন ডিপ্লয়মেন্ট শুরু করবে
+
+
