@@ -3297,4 +3297,72 @@ git remote add origin https://github.com/yourusername/mcvb.git
 git push -u origin main
 ```
 
+---
 
+অবশ্যই, আমি আপনাকে সাহায্য করতে পারি! নিচে আমি স্টেপ বাই স্টেপ নির্দেশনা দিচ্ছি যা আপনি PowerShell এ চালিয়ে আপনার Next.js এডভারটাইজিং প্রজেক্ট তৈরি ও রান করতে পারবেন:
+
+### Step 1: প্রজেক্ট ফোল্ডার তৈরি করা
+PowerShell খুলুন এবং নিচের কমান্ডটি চালান:
+```powershell
+mkdir C:\Users\Public\mjahmad\ads_project
+cd C:\Users\Public\mjahmad\ads_project
+```
+
+### Step 2: Next.js প্রজেক্ট তৈরি করা
+Next.js প্রজেক্ট তৈরি করতে নিচের কমান্ডটি চালান:
+```powershell
+npx create-next-app@latest .
+```
+
+### Step 3: প্রয়োজনীয় প্যাকেজ ইনস্টল করা
+Bing Ads API, Google Ads API, এবং Meta Developer API এর জন্য প্রয়োজনীয় প্যাকেজ ইনস্টল করতে নিচের কমান্ডগুলি চালান:
+```powershell
+npm install axios
+npm install @googleapis/ads
+npm install @bingads/sdk
+npm install @facebook/api
+```
+
+### Step 4: API কনফিগারেশন
+আপনার API কীগুলি `.env.local` ফাইলে সংরক্ষণ করুন:
+```plaintext
+BING_ADS_API_KEY=your_bing_ads_api_key
+GOOGLE_ADS_API_KEY=your_google_ads_api_key
+META_API_KEY=your_meta_api_key
+```
+
+### Step 5: API কল করা
+`pages/index.js` ফাইলে API কল করার জন্য নিচের কোড যুক্ত করুন:
+```javascript
+import axios from 'axios';
+
+export default function Home() {
+  const fetchAds = async () => {
+    const bingAds = await axios.get(`https://api.bing.microsoft.com/v7.0/ads?apikey=${process.env.BING_ADS_API_KEY}`);
+    const googleAds = await axios.get(`https://googleads.googleapis.com/v8/customers?key=${process.env.GOOGLE_ADS_API_KEY}`);
+    const metaAds = await axios.get(`https://graph.facebook.com/v11.0/me?access_token=${process.env.META_API_KEY}`);
+    
+    // Process and display ads
+  };
+
+  useEffect(() => {
+    fetchAds();
+  }, []);
+
+  return (
+    <div>
+      <h1>Targeted Ads</h1>
+      {/* Display ads here */}
+    </div>
+  );
+}
+```
+
+### Step 6: Vercel এ ডিপ্লয় করা
+Vercel CLI ইনস্টল করুন এবং প্রজেক্টটি ডিপ্লয় করুন:
+```powershell
+npm install -g vercel
+vercel
+```
+
+এই স্টেপগুলি অনুসরণ করে আপনি আপনার Next.js এডভারটাইজিং প্রজেক্ট তৈরি ও Vercel এ ডিপ্লয় করতে পারবেন। যদি কোনো প্রশ্ন থাকে, জানাতে দ্বিধা করবেন না! 😊
