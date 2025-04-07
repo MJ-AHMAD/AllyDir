@@ -1,0 +1,203 @@
+
+My profile
+
+
+Skip To Content,
+- Personal information,
+- General,
+- Address,
+- Languages,
+- Education, Skills And Competencies,
+- Qualifications
+
+---
+Personal information,
+
+First name,
+MD JAFOR
+
+Last name,
+AHMAd
+
+Date of birth,
+10/11/1989
+
+Gender,
+Male
+
+Personal email,
+t-ally@outlook.com
+
+User ID,
+6674763
+
+---
+General,
+
+Nationality at birth,
+Bangladesh
+
+Current nationality,
+Bangladesh
+
+Correspondence language,
+English
+
+Country of legal residence,
+Bangladesh
+
+Marital status,
+Separated
+
+How did you hear about us?
+Internet search
+
+I am interested in serving as a volunteer,
+Both onsite and online
+
+Closest city/airport of departure,
+Dhaka
+
+Temporary UN email address,
+---
+
+Phone information,
+Phone Type: Mobile
+Phone Number: 01725463886
+
+Passport(s)
+passport (2).jpg...
+
+---
+Addresses,
+
+Current address,
+
+Address: 123 Ally Street
+Address 2: Cox's Bazar Sadar
+City: Cox's Bazar
+Postal code: 4701
+State/Province: Chittagong
+Country/territory: Bangladesh
+
+
+Permanent address,
+
+Address: HASNABAD SCHOOL PARA
+Address 2: BAZAR HASNABAD, RAIPURA
+City: NARSINGDI
+Postal code: 1631
+State/Province: Dhaka
+Country/territory: Bangladesh
+
+---
+Languages,
+
+Language #1
+Arabic (Fluent)
+
+Language #2
+Bengali (Native language)
+
+Language #3
+English (Working knowledge)
+
+
+---
+Education, skills and competencies,
+
+
+Profile experience,
+Total experience (calculated from profile): 
+6.3 years
+
+Experience last updated: 
+31/03/2025
+
+From: 
+14/12/2018
+
+To: 
+present
+
+Position title: 
+Founder
+
+Employer/Organization: 
+TrustedAlly
+
+Description of major activities: 
+"Together Towards a Brighter Future" Below are some of the key areas where our efforts are focused: 
+1. Educational Programs Access to Quality Education: Providing accessible and quality education to children and adults through various programs and initiatives. 
+2. Community Empowerment Skills Development: Conducting training and development programs to equip individuals with essential skills for employment and entrepreneurship. 
+3. Health and Well-being Health Education: Raising awareness about health and hygiene practices through workshops and campaigns.
+4. Environmental Sustainability Green Initiatives: Promoting environmental sustainability through green initiatives and eco-friendly practices. Environmental Education: Educating the community about the importance of environmental conservation and sustainable living. 
+5. Technology and Innovation Tech Education: Providing training in technology and digital skills to bridge the digital divide and empower the community. 
+6. Partnerships and Collaborations Collaborative Projects: Partnering with educational institutions, non-profits, government agencies, and private sector organizations to amplify our impact.
+
+Type of organization: 
+Private Sector
+
+Type of employment/engagement: 
+Employment (full-time)
+
+Area of expertise: 
+AdministrationBusiness managementCommunicationEducation
+
+City: 
+Dhaka
+
+Country: 
+Bangladesh
+
+References,
+---
+
+---
+Qualifications,
+
+Academic qualifications,
+
+Degree level: 
+Technical/vocational diploma
+
+Diploma/degree obtained: 
+Full Stack Development
+
+From: 
+31/10/2020
+
+To: 
+29/02/2024
+
+Main field of study: 
+Web Development
+
+University/Institution: 
+Microsoft Partner University
+
+Cetifications...
+
+
+Professional certification,
+
+Cetifications...
+
+Cetifications...
+
+uk-t.jpg...
+
+id-f.jpeg...
+
+id-b.jpeg...
+
+Other qualifications
+---
+
+Computer skills,
+
+Description: 
+Frontend Development: 
+Proficient in HTML5, CSS3, JavaScript, React, and Angular for creating responsive, dynamic web applications. Backend Development: Skilled in Node.js, Express.js, and various backend frameworks for scalable server-side applications.
+
+
