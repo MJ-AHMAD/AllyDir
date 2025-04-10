@@ -6,3 +6,8 @@ https://mj-ahmad.github.io/trusted-ally-dir/docs/Challenge/Workspace/img/logo.pn
 Cover image,
 
 https://mj-ahmad.github.io/trusted-ally-dir/docs/Challenge/Workspace/img/cover_img_linkedin.png
+
+
+Welcome post image,
+
+https://mj-ahmad.github.io/trusted-ally-dir/docs/Challenge/Workspace/img/welcome_post_linkedin.png
