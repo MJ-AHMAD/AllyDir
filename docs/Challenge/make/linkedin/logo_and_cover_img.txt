@@ -1,0 +1,8 @@
+logo Loc,
+
+https://mj-ahmad.github.io/trusted-ally-dir/docs/Challenge/Workspace/img/logo.png
+
+
+Cover image,
+
+https://mj-ahmad.github.io/trusted-ally-dir/docs/Challenge/Workspace/img/cover_img_linkedin.png
