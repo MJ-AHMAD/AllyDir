@@ -1,0 +1,54 @@
+
+{
+  "setup": {
+    "windows": {
+      "powershell_installation": [
+        "Run PowerShell as Administrator",
+        "Execute: Set-ExecutionPolicy Unrestricted -Scope CurrentUser",
+        "Download youtube-dl: iwr -useb https://yt-dl.org/downloads/latest/youtube-dl.exe | Out-File -FilePath \"$env:APPDATA\\youtube-dl.exe\"",
+        "Verify installation: $env:APPDATA\\youtube-dl.exe --version"
+      ],
+      "ffmpeg_installation": [
+        "Download FFmpeg from https://ffmpeg.org/download.html",
+        "Move .exe to C:\\ffmpeg\\bin\\",
+        "Execute in PowerShell: [System.Environment]::SetEnvironmentVariable(\"Path\", \"$env:Path;C:\\ffmpeg\\bin\", [System.EnvironmentVariableTarget]::Machine)"
+      ]
+    },
+    "linux": {
+      "installation": [
+        "Open Terminal",
+        "Execute: sudo apt update && sudo apt install youtube-dl",
+        "Verify installation: youtube-dl --version"
+      ]
+    },
+    "mac": {
+      "installation": [
+        "Open Terminal",
+        "Execute: brew install youtube-dl",
+        "Verify installation: youtube-dl --version"
+      ]
+    }
+  },
+  "commands": {
+    "download_best_quality": "youtube-dl -f best <video_url>",
+    "download_audio_mp3": "youtube-dl -x --audio-format mp3 <video_url>",
+    "download_playlist": "youtube-dl -i <playlist_url>",
+    "download_with_subtitles": "youtube-dl --write-sub --sub-lang en <video_url>"
+  },
+  "automation": {
+    "windows_task_scheduler": "Use Task Scheduler to run youtube-dl automatically",
+    "linux_cron_job": "Set up a Cron Job to automate youtube-dl execution"
+  },
+  "powershell_script": {
+    "script": [
+      "$videoURL = Read-Host \"Enter video URL\"",
+      "$downloadPath = \"$env:USERPROFILE\\Downloads\\\"",
+      "$youtubeDL = \"$env:APPDATA\\youtube-dl.exe\"",
+      "Start-Process -FilePath $youtubeDL -ArgumentList \"$videoURL -o '$downloadPath\\%(title)s.%(ext)s'\" -NoNewWindow -Wait",
+      "Write-Host \"Download completed!\""
+    ]
+  }
+}
+
+
+
