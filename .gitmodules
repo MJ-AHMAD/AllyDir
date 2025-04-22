@@ -1,0 +1,3 @@
+[submodule "vscode.wiki"]
+    path = vscode.wiki
+    url = <repository-url>
