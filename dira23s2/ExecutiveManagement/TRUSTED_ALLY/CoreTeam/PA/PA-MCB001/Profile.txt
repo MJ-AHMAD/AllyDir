@@ -1,0 +1,13 @@
+Name: John Doe
+Position: Personal Assistant
+Qualifications:
+- Time management
+- Strong communication skills
+- Confidentiality
+Roles:
+- Manage daily schedules
+- Coordinate meetings and emails
+- Prepare reports and sensitive documents
+Contact Information:
+Phone: +880123456789
+Email: john.doe@trustedally.org

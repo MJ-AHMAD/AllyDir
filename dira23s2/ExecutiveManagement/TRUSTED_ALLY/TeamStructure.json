@@ -1,0 +1,145 @@
+{
+    "positions": [
+      {
+        "code": "PA-MCB001",
+        "position": "Personal Assistant",
+        "qualifications": [
+          "Time management",
+          "Strong communication skills",
+          "Confidentiality"
+        ],
+        "roles": [
+          "Manage daily schedules",
+          "Coordinate meetings and emails",
+          "Prepare reports and sensitive documents"
+        ]
+      },
+      {
+        "code": "PA-MCB002",
+        "position": "Personal Assistant (Evening)",
+        "qualifications": [
+          "Organizational skills",
+          "Adaptability",
+          "Confidentiality"
+        ],
+        "roles": [
+          "Assist with email follow-ups",
+          "Organize documents",
+          "Support operational tasks for evening shift"
+        ]
+      },
+      {
+        "code": "PA-MCB003",
+        "position": "Personal Assistant (Night)",
+        "qualifications": [
+          "Problem-solving skills",
+          "Night shift adaptability",
+          "Time management"
+        ],
+        "roles": [
+          "Respond to urgent matters",
+          "Prepare night reports",
+          "Oversee late-hour communications"
+        ]
+      },
+      {
+        "code": "OM-MCB004",
+        "position": "Operations Manager",
+        "qualifications": [
+          "Leadership skills",
+          "Experience in project management",
+          "Operational expertise"
+        ],
+        "roles": [
+          "Supervise daily operations",
+          "Coordinate with teams",
+          "Implement strategic plans"
+        ]
+      },
+      {
+        "code": "FM-MCB005",
+        "position": "Finance Manager",
+        "qualifications": [
+          "Degree in Finance",
+          "Accounting expertise",
+          "Proficiency in financial tools"
+        ],
+        "roles": [
+          "Prepare budgets",
+          "Track financial transactions",
+          "Generate financial reports"
+        ]
+      },
+      {
+        "code": "CC-MCB006",
+        "position": "Communication Coordinator",
+        "qualifications": [
+          "Public relations skills",
+          "Social media management expertise",
+          "Strong communication skills"
+        ],
+        "roles": [
+          "Internal and external communication",
+          "Social media content creation",
+          "Oversee outreach activities"
+        ]
+      },
+      {
+        "code": "TDM-MCB007",
+        "position": "Training Development Manager",
+        "qualifications": [
+          "Experience in training programs",
+          "Instructional design expertise",
+          "Employee development knowledge"
+        ],
+        "roles": [
+          "Create training modules",
+          "Conduct workshops",
+          "Monitor skill development progress"
+        ]
+      },
+      {
+        "code": "IT-MCB008",
+        "position": "IT Support Member",
+        "qualifications": [
+          "Hardware and software expertise",
+          "Problem-solving skills",
+          "Cybersecurity knowledge"
+        ],
+        "roles": [
+          "Provide technical support",
+          "Maintain systems and servers",
+          "Ensure cybersecurity measures"
+        ]
+      },
+      {
+        "code": "DRC-MCB009",
+        "position": "District Coordinator",
+        "qualifications": [
+          "Leadership skills",
+          "Multitasking ability",
+          "Communication expertise"
+        ],
+        "roles": [
+          "Coordinate with district leads",
+          "Monitor district activities",
+          "Prepare progress reports"
+        ]
+      },
+      {
+        "code": "PM-MCB010",
+        "position": "Project Manager",
+        "qualifications": [
+          "Project planning and execution expertise",
+          "Team coordination skills",
+          "Leadership ability"
+        ],
+        "roles": [
+          "Plan and execute projects",
+          "Manage team deadlines",
+          "Assess project success metrics"
+        ]
+      }
+    ]
+  }
+  
