@@ -1,0 +1,31 @@
+{
+  "NexaraResources": {
+    "HackForge": {
+      "slogan": "Unlock the Secrets, Master the Code!",
+      "features": [
+        "Ethical Hacking Labs",
+        "Code Playground & API Testing",
+        "Security & Compliance Hub"
+      ],
+      "impact": "প্রকৃত দক্ষতা ও নিরাপত্তা চর্চার মাধ্যমে প্রযুক্তির গভীরে প্রবেশ"
+    },
+    "SkillX": {
+      "slogan": "Explore. Experiment. Excel!",
+      "features": [
+        "Exploration Labs for AI & Cloud Technologies",
+        "Competitive Skill Challenges",
+        "Live Mentorship & Hackathon"
+      ],
+      "impact": "নতুন প্রযুক্তির অনুসন্ধান ও প্রতিযোগিতার মাধ্যমে দক্ষতা গড়ে তোলা"
+    },
+    "CodeArena": {
+      "slogan": "Battle for the Code. Rise as a Champion!",
+      "features": [
+        "Live Coding Competitions",
+        "Arena Leaderboards for Growth Tracking",
+        "Project-Based Learning & Real-World Problem Solving"
+      ],
+      "impact": "প্রকৃত বাস্তব সমস্যা সমাধান করে দক্ষতা অর্জনের অনন্য যুদ্ধক্ষেত্র"
+    }
+  }
+}
