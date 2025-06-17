@@ -1,0 +1,110 @@
+{
+  "website": {
+    "name": "MJ AHMAD",
+    "tagline": "Building Ethical Innovation | Open Source | Decentralized Systems",
+    "domain": ["mjahmad.com", "mjahmad.org"],
+    "theme": {
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#374151",
+      "backgroundGradient": "from-slate-50 to-white dark:from-slate-950 dark:to-slate-900",
+      "font": "Roboto",
+      "darkMode": true
+    },
+    "pages": {
+      "home": {
+        "title": "Welcome to MJ AHMAD",
+        "heroSection": {
+          "heading": "I believe that technology isn’t just code—it’s a movement.",
+          "subheading": "Empowering communities through decentralized AI, Web3, and ethical open-source innovation.",
+          "ctaButtons": ["Explore My Work", "Join My Vision"],
+          "profileImage": "/mj-ahmad.png"
+        },
+        "aboutSection": {
+          "heading": "Who I Am",
+          "bio": "Visionary Technologist & Founder of Nexara, NexChain, NexMedia.",
+          "coreValues": ["Transparency", "Accessibility", "Decentralization", "Innovation"],
+          "quote": "Technology holds its true power when it empowers people."
+        }
+      },
+      "projects": {
+        "title": "My Projects",
+        "featuredProjects": [
+          {
+            "name": "Nexara",
+            "description": "An open-source ecosystem focused on ethical AI, developer collaboration, and decentralized innovation.",
+            "keyFeatures": ["AI Compute", "Developer Community", "Open Source Security"],
+            "link": "/nexara"
+          },
+          {
+            "name": "NexChain",
+            "description": "A Web3 decentralized identity & AI compute billing system, integrating blockchain security and decentralized API marketplace.",
+            "keyFeatures": ["Decentralized Identity", "Web3 API Marketplace", "AI Tokenization"],
+            "link": "/nexchain"
+          },
+          {
+            "name": "NexMedia",
+            "description": "A decentralized content ecosystem built for ethical journalism, digital storytelling, and NFT licensing.",
+            "keyFeatures": ["Decentralized Publishing", "NFT Licensing", "Storytelling Economy"],
+            "link": "/nexmedia"
+          }
+        ]
+      },
+      "vision": {
+        "title": "My Vision & Mission",
+        "sections": [
+          {
+            "heading": "Creating a Future Beyond Boundaries",
+            "content": "I envision a digital ecosystem where technology serves humanity, innovation is ethical, and decentralization empowers communities."
+          },
+          {
+            "heading": "The Mission Behind My Work",
+            "content": "To build AI-powered Web3 platforms that enable inclusive growth, ethical financial models, and decentralized identity management."
+          }
+        ]
+      },
+      "community": {
+        "title": "Join My Community",
+        "socialLinks": [
+          { "platform": "GitHub", "link": "https://github.com/MJ-AHMAD" },
+          { "platform": "LinkedIn", "link": "https://linkedin.com/in/mjahmad" },
+          { "platform": "Twitter", "link": "https://twitter.com/mjahmad" },
+          { "platform": "Ko-Fi", "link": "https://ko-fi.com/mjahmad" }
+        ]
+      },
+      "contact": {
+        "title": "Contact Me",
+        "email": "mjahmad2024@outlook.com",
+        "discord": "#",
+        "messageForm": {
+          "fields": ["Name", "Email", "Message"],
+          "submitButton": "Send Message"
+        }
+      }
+    },
+    "backend": {
+      "host": "Azure",
+      "framework": "Node.js",
+      "apiEndpoints": [
+        { "name": "Homepage Data", "route": "/api/home", "method": "GET" },
+        { "name": "Projects List", "route": "/api/projects", "method": "GET" },
+        { "name": "Contact Form Submission", "route": "/api/contact", "method": "POST" }
+      ],
+      "database": {
+        "type": "MongoDB",
+        "collections": ["users", "projects", "contacts"]
+      }
+    },
+    "deployment": {
+      "frontend": {
+        "platform": "Vercel",
+        "framework": "Next.js",
+        "repository": "https://github.com/MJ-AHMAD/mjahmad-site"
+      },
+      "backend": {
+        "platform": "Azure",
+        "repository": "https://github.com/MJ-AHMAD/mjahmad-api"
+      },
+      "domainSetup": ["mjahmad.com", "mjahmad.org"]
+    }
+  }
+}
