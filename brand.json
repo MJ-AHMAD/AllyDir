@@ -1,0 +1,492 @@
+{
+  "brandGuidelinesPage": {
+    "metadata": {
+      "title": "Brand Guidelines | Nexara",
+      "description": "Official brand guidelines for Nexara and its initiatives: Yunus Inspire, Trusted Ally & Infinity Nexus",
+      "url": "/brand-guidelines",
+      "lastUpdated": "January 2024",
+      "version": "1.0.0"
+    },
+    "pageStructure": {
+      "layout": {
+        "header": "Header component with navigation",
+        "main": "Main content area with guidelines",
+        "footer": "Footer component with links"
+      },
+      "contentSections": {
+        "heroSection": {
+          "title": "Nexara Brand Guidelines",
+          "subtitle": "Official guidelines for consistent representation of Nexara and its initiatives",
+          "description": "This document establishes the official standards for representing Nexara and its three core initiatives: Yunus Inspire, Trusted Ally & Infinity Nexus."
+        },
+        "aboutSection": {
+          "title": "About These Guidelines",
+          "content": "Consistent branding is essential to building recognition and trust. These guidelines ensure that Nexara and its initiatives are represented consistently across all platforms and materials.",
+          "downloadOptions": [
+            {
+              "type": "PDF Guidelines",
+              "icon": "Download",
+              "action": "Download PDF Guidelines"
+            },
+            {
+              "type": "Brand Assets",
+              "icon": "FileText",
+              "action": "Download Brand Assets"
+            }
+          ]
+        },
+        "tabsNavigation": {
+          "defaultTab": "logo",
+          "tabs": [
+            {
+              "id": "logo",
+              "label": "Logo",
+              "icon": "Shield",
+              "content": "logoGuidelines"
+            },
+            {
+              "id": "colors",
+              "label": "Colors",
+              "icon": "Palette",
+              "content": "colorPalette"
+            },
+            {
+              "id": "typography",
+              "label": "Typography",
+              "icon": "Type",
+              "content": "typographyGuidelines"
+            },
+            {
+              "id": "voice",
+              "label": "Voice & Tone",
+              "icon": "MessageSquare",
+              "content": "voiceAndTone"
+            },
+            {
+              "id": "initiatives",
+              "label": "Initiatives",
+              "icon": "Grid",
+              "content": "initiativeBranding"
+            }
+          ]
+        }
+      }
+    },
+    "contentDetails": {
+      "logoGuidelines": {
+        "title": "Logo Guidelines",
+        "description": "The Nexara logo is the primary visual identifier of our brand. It should be used consistently and respectfully across all platforms and materials.",
+        "logoVariants": {
+          "primary": {
+            "title": "Primary Logo",
+            "description": "Use this version whenever possible",
+            "design": {
+              "shape": "circular",
+              "background": "gradient from blue-500 via emerald-500 to purple-500",
+              "text": "N",
+              "textColor": "white",
+              "fontSize": "4xl",
+              "fontWeight": "bold"
+            },
+            "brandName": "Nexara"
+          },
+          "monochrome": {
+            "title": "Monochrome Logo",
+            "description": "For use on colored backgrounds or in print",
+            "design": {
+              "shape": "circular",
+              "background": "gray-900 (dark mode: white)",
+              "text": "N",
+              "textColor": "white (dark mode: gray-900)",
+              "fontSize": "4xl",
+              "fontWeight": "bold"
+            },
+            "brandName": "Nexara"
+          }
+        },
+        "usageRules": {
+          "clearSpace": "Always maintain a minimum clear space around the logo equal to the height of the 'N' in the logo",
+          "incorrectUsage": [
+            "Don't stretch or distort",
+            "Don't change colors",
+            "Don't add effects"
+          ]
+        }
+      },
+      "colorPalette": {
+        "title": "Color Palette",
+        "description": "Our color palette is designed to reflect the diversity and vibrancy of our initiatives while maintaining a cohesive brand identity.",
+        "primaryColors": [
+          {
+            "name": "Nexara Blue",
+            "hex": "#3B82F6",
+            "className": "bg-blue-500",
+            "usage": "Primary brand color"
+          },
+          {
+            "name": "Nexara Emerald",
+            "hex": "#10B981",
+            "className": "bg-emerald-500",
+            "usage": "Secondary brand color"
+          },
+          {
+            "name": "Nexara Purple",
+            "hex": "#8B5CF6",
+            "className": "bg-purple-500",
+            "usage": "Accent brand color"
+          }
+        ],
+        "initiativeColors": [
+          {
+            "name": "Yunus Inspire Blue",
+            "hex": "#3B82F6",
+            "className": "bg-blue-500",
+            "initiative": "Yunus Inspire"
+          },
+          {
+            "name": "Trusted Ally Emerald",
+            "hex": "#10B981",
+            "className": "bg-emerald-500",
+            "initiative": "Trusted Ally"
+          },
+          {
+            "name": "Infinity Nexus Purple",
+            "hex": "#8B5CF6",
+            "className": "bg-purple-500",
+            "initiative": "Infinity Nexus"
+          }
+        ],
+        "neutralColors": [
+          {
+            "name": "Gray 900",
+            "hex": "#111827",
+            "className": "bg-gray-900",
+            "usage": "Primary text"
+          },
+          {
+            "name": "Gray 700",
+            "hex": "#374151",
+            "className": "bg-gray-700",
+            "usage": "Secondary text"
+          },
+          {
+            "name": "Gray 500",
+            "hex": "#6B7280",
+            "className": "bg-gray-500",
+            "usage": "Muted text"
+          },
+          {
+            "name": "Gray 100",
+            "hex": "#F3F4F6",
+            "className": "bg-gray-100",
+            "usage": "Light backgrounds"
+          }
+        ]
+      },
+      "typographyGuidelines": {
+        "title": "Typography",
+        "description": "Typography plays a crucial role in our brand identity. Consistent use of fonts helps maintain a cohesive look and feel across all platforms.",
+        "primaryFont": {
+          "name": "Inter",
+          "variants": [
+            {
+              "weight": "Bold",
+              "usage": "Used for headings and titles",
+              "fontSize": "4xl",
+              "example": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj"
+            },
+            {
+              "weight": "Medium",
+              "usage": "Used for subheadings",
+              "fontSize": "2xl",
+              "example": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj"
+            },
+            {
+              "weight": "Regular",
+              "usage": "Used for body text",
+              "fontSize": "xl",
+              "example": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj"
+            }
+          ]
+        },
+        "fontHierarchy": [
+          {
+            "level": "Heading 1",
+            "font": "Inter Bold",
+            "size": "36px/2.25rem",
+            "className": "text-4xl font-bold"
+          },
+          {
+            "level": "Heading 2",
+            "font": "Inter Bold",
+            "size": "30px/1.875rem",
+            "className": "text-3xl font-bold"
+          },
+          {
+            "level": "Heading 3",
+            "font": "Inter Bold",
+            "size": "24px/1.5rem",
+            "className": "text-2xl font-bold"
+          },
+          {
+            "level": "Heading 4",
+            "font": "Inter Bold",
+            "size": "20px/1.25rem",
+            "className": "text-xl font-bold"
+          },
+          {
+            "level": "Body Text",
+            "font": "Inter Regular",
+            "size": "16px/1rem",
+            "className": "text-base"
+          },
+          {
+            "level": "Small Text",
+            "font": "Inter Regular",
+            "size": "14px/0.875rem",
+            "className": "text-sm"
+          }
+        ]
+      },
+      "voiceAndTone": {
+        "title": "Voice & Tone",
+        "description": "Our voice and tone reflect our values and mission. They guide how we communicate with our audience across all channels.",
+        "brandVoice": [
+          {
+            "characteristic": "Empowering",
+            "description": "We inspire action and enable positive change. Our communication should empower people to make a difference.",
+            "goodExample": "Together, we can create lasting change.",
+            "badExample": "We'll solve these problems for you."
+          },
+          {
+            "characteristic": "Inclusive",
+            "description": "We value diversity and inclusion. Our language should be accessible and welcoming to people from all backgrounds.",
+            "goodExample": "Everyone has a role to play in our community.",
+            "badExample": "Only experts can understand this approach."
+          },
+          {
+            "characteristic": "Authentic",
+            "description": "We are genuine and transparent. Our communication should be honest, clear, and reflect our true values.",
+            "goodExample": "We're learning and growing alongside our community.",
+            "badExample": "We have all the answers to complex global challenges."
+          },
+          {
+            "characteristic": "Forward-thinking",
+            "description": "We are innovative and future-oriented. Our communication should reflect our commitment to progress and innovation.",
+            "goodExample": "Exploring new approaches to create sustainable solutions.",
+            "badExample": "Sticking with traditional methods that worked in the past."
+          }
+        ],
+        "toneConsiderations": {
+          "title": "Adjust for Context",
+          "description": "While our voice remains consistent, our tone should adapt to different situations and audiences:",
+          "contexts": [
+            {
+              "type": "Educational content",
+              "tone": "Clear, informative, and supportive"
+            },
+            {
+              "type": "Crisis communication",
+              "tone": "Calm, direct, and compassionate"
+            },
+            {
+              "type": "Celebrations",
+              "tone": "Enthusiastic, warm, and appreciative"
+            },
+            {
+              "type": "Technical documentation",
+              "tone": "Precise, straightforward, and helpful"
+            }
+          ]
+        }
+      },
+      "initiativeBranding": {
+        "title": "Initiative Branding",
+        "description": "Each of our three initiatives has its own distinct identity while remaining part of the Nexara family.",
+        "namingConventions": {
+          "fullReference": {
+            "format": "Yunus Inspire, Trusted Ally & Infinity Nexus",
+            "rules": [
+              "Always maintain this exact order",
+              "Use an ampersand (&) rather than 'and'",
+              "Ensure proper capitalization of all words",
+              "Do not use abbreviations in formal contexts"
+            ]
+          }
+        },
+        "initiatives": [
+          {
+            "name": "Yunus Inspire",
+            "color": {
+              "name": "Blue",
+              "hex": "#3B82F6",
+              "className": "bg-blue-500"
+            },
+            "description": "Social impact and microfinance initiatives inspired by Dr. Muhammad Yunus's principles.",
+            "correctUsage": [
+              "Yunus Inspire (both words capitalized)",
+              "Yunus Inspire's programs"
+            ],
+            "headerStyle": "bg-blue-50 dark:bg-blue-900/20 border-b border-blue-100 dark:border-blue-800",
+            "titleStyle": "text-blue-700 dark:text-blue-400"
+          },
+          {
+            "name": "Trusted Ally",
+            "color": {
+              "name": "Emerald",
+              "hex": "#10B981",
+              "className": "bg-emerald-500"
+            },
+            "description": "Community building and support systems focused on creating resilient social networks.",
+            "correctUsage": [
+              "Trusted Ally (both words capitalized)",
+              "Trusted Ally's community"
+            ],
+            "headerStyle": "bg-emerald-50 dark:bg-emerald-900/20 border-b border-emerald-100 dark:border-emerald-800",
+            "titleStyle": "text-emerald-700 dark:text-emerald-400"
+          },
+          {
+            "name": "Infinity Nexus",
+            "color": {
+              "name": "Purple",
+              "hex": "#8B5CF6",
+              "className": "bg-purple-500"
+            },
+            "description": "Technology and innovation projects that connect and amplify the impact of our initiatives.",
+            "correctUsage": [
+              "Infinity Nexus (both words capitalized)",
+              "Infinity Nexus' technology"
+            ],
+            "headerStyle": "bg-purple-50 dark:bg-purple-900/20 border-b border-purple-100 dark:border-purple-800",
+            "titleStyle": "text-purple-700 dark:text-purple-400"
+          }
+        ],
+        "visualIndicators": {
+          "description": "Use the appropriate colored dot indicator before initiative names in navigation, lists, and UI elements.",
+          "examples": [
+            {
+              "initiative": "Yunus Inspire",
+              "indicator": "h-3 w-3 rounded-full bg-blue-500"
+            },
+            {
+              "initiative": "Trusted Ally",
+              "indicator": "h-3 w-3 rounded-full bg-emerald-500"
+            },
+            {
+              "initiative": "Infinity Nexus",
+              "indicator": "h-3 w-3 rounded-full bg-purple-500"
+            }
+          ]
+        }
+      }
+    },
+    "implementationGuidelines": {
+      "title": "Implementation Guidelines",
+      "description": "How to apply these brand guidelines across different platforms",
+      "platforms": [
+        {
+          "platform": "Website",
+          "guidelines": [
+            "Use visual indicators in navigation menus",
+            "Include the full reference in the footer",
+            "Maintain consistent color coding"
+          ]
+        },
+        {
+          "platform": "Documentation",
+          "guidelines": [
+            "Use the full reference on first mention",
+            "Include visual indicators in section headings",
+            "Use established color coding"
+          ]
+        },
+        {
+          "platform": "Code",
+          "guidelines": [
+            "Use consistent naming conventions",
+            "Follow established color codes for UI elements",
+            "Maintain brand voice in comments and docs"
+          ]
+        }
+      ]
+    },
+    "technicalImplementation": {
+      "fileStructure": {
+        "mainPage": "app/brand-guidelines/page.tsx",
+        "clientComponent": "app/brand-guidelines/brand-guidelines-client.tsx",
+        "loadingComponent": "app/brand-guidelines/loading.tsx"
+      },
+      "dependencies": [
+        "@/components/ui/tabs",
+        "@/components/ui/card",
+        "@/components/ui/button",
+        "lucide-react",
+        "react (useState hook)"
+      ],
+      "styling": {
+        "framework": "Tailwind CSS",
+        "components": "shadcn/ui",
+        "responsive": "Mobile-first approach",
+        "darkMode": "Supported with dark: variants"
+      },
+      "interactivity": {
+        "colorSwatches": {
+          "feature": "Click to copy hex codes",
+          "feedback": "Visual confirmation with check icon",
+          "timeout": "2 seconds"
+        },
+        "tabs": {
+          "navigation": "Keyboard and mouse accessible",
+          "responsive": "Stacked on mobile, horizontal on desktop"
+        }
+      }
+    },
+    "componentStructure": {
+      "BrandGuidelinesClient": {
+        "type": "Client Component",
+        "state": "useState for copy functionality",
+        "sections": [
+          "About section with download buttons",
+          "Tabs navigation with 5 tabs",
+          "Logo guidelines with variants",
+          "Color palette with interactive swatches",
+          "Typography hierarchy examples",
+          "Voice and tone with examples",
+          "Initiative branding with color coding",
+          "Implementation guidelines",
+          "Contact information"
+        ]
+      },
+      "ColorSwatch": {
+        "type": "Reusable Component",
+        "props": ["name", "hex", "className"],
+        "functionality": "Copy to clipboard with visual feedback"
+      }
+    },
+    "accessibilityFeatures": {
+      "semanticHTML": "Proper heading hierarchy and landmarks",
+      "keyboardNavigation": "Full keyboard accessibility for tabs",
+      "screenReaders": "Appropriate ARIA labels and descriptions",
+      "colorContrast": "WCAG compliant color combinations",
+      "focusManagement": "Visible focus indicators"
+    },
+    "responsiveDesign": {
+      "breakpoints": {
+        "mobile": "Default styling",
+        "tablet": "md: prefix classes",
+        "desktop": "lg: and xl: prefix classes"
+      },
+      "adaptations": [
+        "Tab navigation stacks on mobile",
+        "Grid layouts adjust for screen size",
+        "Text sizes scale appropriately",
+        "Touch targets meet minimum size requirements"
+      ]
+    },
+    "brandContact": {
+      "email": "brand@nexara.com",
+      "purpose": "Questions about brand usage",
+      "styling": "Gradient background with rounded corners"
+    }
+  }
+}
