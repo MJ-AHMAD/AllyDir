@@ -1,0 +1,72 @@
+{
+  "project": "NexaFunding",
+  "tagline": "Transparent, Decentralized Developer Support and Micro-Capital UI",
+  "description": "NexaFunding is a lightweight, public-facing funding interface powered by a single funding.json file, enabling individuals, donors, and communities to transparently support open-source development, community projects, or urgent personal needs.",
+  "features": [
+    "Public JSON-based funding manifest (funding.json)",
+    "bkash / nagad / Rocket support with QR linking",
+    "Cryptocurrency support (ETH, USDT, HYRA)",
+    "Donation category badges (urgent / milestone / recurring)",
+    "Auto-link parsing (BuyMeACoffee, Stripe, etc.)",
+    "Dark-mode & low-data ready interface",
+    "VC-linked contributor authentication (planned)"
+  ],
+  "techStack": {
+    "frontend": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "config": "Static funding.json manifest",
+    "hosting": ["GitHub Pages", "Vercel"],
+    "QR Support": ["Static image / dynamic render (optional)"]
+  },
+  "structure": {
+    "repoName": "nexara-funding-ui",
+    "domain": "funding.nexarabd.dev",
+    "folders": [
+      "public/assets/",
+      "pages/index.tsx",
+      "components/Badge.tsx",
+      "utils/formatCurrency.ts",
+      "styles/"
+    ],
+    "importantFiles": [
+      "funding.json",
+      "CNAME",
+      "README.md"
+    ]
+  },
+  "manifestSchema": {
+    "currency": "BDT",
+    "owner": "MJ AHMAD",
+    "beneficiaries": [
+      {
+        "id": "mj-core-laptop",
+        "title": "MJ Laptop Fund",
+        "type": "urgent",
+        "amountGoal": 54000,
+        "donationLinks": {
+          "bkash": "https://example.com/bkashQR.png",
+          "eth": "0xabc...def",
+          "stripe": "https://buy.stripe.com/testexample"
+        },
+        "description": "Help MJ purchase a development laptop for Nexara tools."
+      }
+    ]
+  },
+  "usageExamples": [
+    "Freelance developer seeking short-term emergency funding",
+    "Open-source project with recurring hosting costs",
+    "Educational campaign for empowering underserved communities"
+  ],
+  "identitySupport": {
+    "linkedVC": "https://vc.nexarabd.dev/mj",
+    "vcName": "MJ AHMAD",
+    "credentialSignature": "ecdsa-secp256k1"
+  },
+  "futureScope": [
+    "HYRA token-based tipping UI",
+    "Dynamic funding status from GitHub Sponsors / Open Collective",
+    "Consent-signed donation trail via NexaChain",
+    "QR Scanning via wallet for one-click contribution"
+  ],
+  "maintainedBy": "Nexara Initiative",
+  "lastUpdated": "2025-06-21"
+}
