@@ -1,0 +1,58 @@
+{
+  "project": "NexaChain",
+  "tagline": "A Lightweight Trust Layer for Message Signing, Verification & Contextual Consent",
+  "description": "NexaChain is a developer-first proof mechanism that enables transparent message signing, client-developer handshakes, and reusable consent logic across decentralized workflows.",
+  "features": [
+    "Client ↔ Developer signature exchange (Ed25519 / ECDSA)",
+    "Context-linked message signing with action intent",
+    "VC-linked signature map: signing → verifying → storing",
+    "Consent trail for embedded finance / service access",
+    "Standalone signature viewer (public or private mode)",
+    "Webhook-triggered action post-signing (future)"
+  ],
+  "techStack": {
+    "core": "Node.js + Express + TypeScript",
+    "signatureLib": ["tweetnacl", "ethers.js", "did-jwt-vc"],
+    "UI": "Next.js + Tailwind CSS (Viewer)",
+    "Storage": "Git-based JSON snapshots, IPFS (planned)",
+    "Interoperability": ["vc.nexarabd.dev", "nexanode", "funding.json"]
+  },
+  "structure": {
+    "repoName": "nexachain",
+    "domain": "chain.nexarabd.dev",
+    "folders": [
+      "signatures/",
+      "vc-links/",
+      "views/",
+      "client-hooks/",
+      "sharedSchemas/"
+    ],
+    "importantFiles": [
+      "sign.js",
+      "verify.js",
+      "routes/api/[vcid].ts",
+      "chainmap.json",
+      "signature-config.json",
+      "README.md"
+    ]
+  },
+  "identitySupport": {
+    "verifierID": "mj-nexara",
+    "vcLinked": true,
+    "trustedIssuers": ["vc.nexarabd.dev", "mj-vc.json"],
+    "signatureFormat": "Linked Signature with Timestamp, Action Context, Nonce"
+  },
+  "usageExamples": [
+    "Client signs acceptance for an automation request",
+    "Funding request digitally signed → stored for audit",
+    "Token Swap intent signed by both parties with role-map"
+  ],
+  "futureScope": [
+    "IPFS-based ChainMap Snapshot",
+    "ZK Signature Aggregation (zk-SNARK support)",
+    "Decentralized developer onboarding via signed pledge",
+    "Microsoft Entra / Verifiable Credential bridge"
+  ],
+  "maintainedBy": "Nexara Initiative",
+  "lastUpdated": "2025-06-21"
+}
