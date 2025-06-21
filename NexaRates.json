@@ -1,0 +1,56 @@
+{
+  "project": "NexaRates",
+  "tagline": "A Minimalist Yet Trustworthy Global Rate Viewer",
+  "description": "A lightweight open-source rate viewer for developers, freelancers, and learners—built with simplicity, speed, and trust in mind.",
+  "features": [
+    "Live Fiat Currency Rates (USD, BDT, INR, EUR, etc.)",
+    "Live Token Prices (BTC, ETH, USDT, HYRA)",
+    "Trust Overlay via VC Credential (mj-vc.json)",
+    "Funding Info via funding.json (bkash, crypto)",
+    "Dark/Light Mode Toggle",
+    "CSV Export of Rate Snapshots (planned)",
+    "Offline Fallback with Cached Rates"
+  ],
+  "techStack": {
+    "frontend": ["Next.js", "TypeScript", "Tailwind CSS"],
+    "api": ["CoinGecko", "CurrencyLayer"],
+    "hosting": ["Vercel", "GitHub Pages"]
+  },
+  "structure": {
+    "repoName": "nexarates",
+    "domain": "rates.nexarabd.dev",
+    "folders": [
+      "public/icons",
+      "src/components",
+      "src/pages",
+      "src/services",
+      "src/utils"
+    ],
+    "importantFiles": [
+      "funding.json",
+      "mj-vc.json",
+      "CNAME",
+      "README.md"
+    ]
+  },
+  "identity": {
+    "developer": "MJ AHMAD",
+    "verifiedCredential": "https://vc.nexarabd.dev/mj",
+    "publisherID": "mjahmad.nexara"
+  },
+  "audience": [
+    "Freelancers & Developers in Bangladesh",
+    "Students needing quick rate lookup",
+    "Microfinance practitioners",
+    "NGOs offering digital support"
+  ],
+  "futureScope": [
+    "Web3 Login with MetaMask",
+    "HYRA Token Economy Dashboard",
+    "Multi-language UI (BN/EN)",
+    "Rate Snapshot Bookmarking",
+    "Live Chain Monitoring (via NexaNode)"
+  ],
+  "maintainedBy": "Nexara Initiative",
+  "lastUpdated": "2025-06-21"
+}
