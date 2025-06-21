@@ -1,0 +1,57 @@
+{
+  "project": "NexaNode",
+  "tagline": "A Wallet-First Gateway for Decentralized Compute & Identity",
+  "description": "NexaNode is a lightweight, modular gateway enabling wallet-based user authentication, compute billing, and verifiable credential access in decentralized applications.",
+  "features": [
+    "Wallet-based login (MetaMask / WalletConnect)",
+    "Usage-based compute billing for AI APIs or microservices",
+    "Verifiable Credential (VC) issuance and validation",
+    "Private key-based permissioning (no central session store)",
+    "Rate-limiting + Usage Analytics (Future)",
+    "HYRA-based token accounting (planned)"
+  ],
+  "techStack": {
+    "runtime": "Node.js with Express",
+    "auth": "Ethereum-based Wallet Signature",
+    "data": "JSON-based sessionless vault / Redis (optional)",
+    "vcFramework": "W3C Verifiable Credentials JSON-LD",
+    "infrastructure": ["Vercel", "Lite VPS", "IPFS (future)"]
+  },
+  "structure": {
+    "repoName": "nexanode",
+    "domain": "node.nexarabd.dev",
+    "folders": [
+      "routes/",
+      "lib/crypto/",
+      "controllers/",
+      "data/vaults/",
+      "vc/templates/"
+    ],
+    "importantFiles": [
+      "index.js",
+      ".env",
+      "vc-issuer.js",
+      "hyra-meter.js (future)",
+      "README.md"
+    ]
+  },
+  "identitySupport": {
+    "issuerDID": "did:nexara:node",
+    "verifierID": "mj-nexara",
+    "publisher": "mjahmad.nexara",
+    "trustedBy": ["vc.nexarabd.dev", "Companies House ID", "Visual Studio Marketplace"]
+  },
+  "usageExamples": [
+    "Rate-limited LLM API Gateway for verified users",
+    "Micro-Funding faucet access via wallet signature",
+    "Blockchain-based credential verifier for Edu/NGOs"
+  ],
+  "futureScope": [
+    "ZK-Auth support (zkSNARK verified ID)",
+    "Embedded Stripe / HYRA billing bridge",
+    "Decentralized Storage session fallback (IPFS/Vault)",
+    "Real-time Node Dashboard (CLI + Web)"
+  ],
+  "maintainedBy": "Nexara Initiative",
+  "lastUpdated": "2025-06-21"
+}
