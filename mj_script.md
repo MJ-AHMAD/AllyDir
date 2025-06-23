@@ -152,5 +152,99 @@ HYRA, NexaNode, GitHub, VS Code, VC JSON প্রজেক্ট নিয়ে �
 
 আমার পরামর্শঃ  
 🧩 8GB RAM + Core i5 (6th–7th Gen) + SSD থাকলেই তুমি NexaNode থেকে Visual Studio Code, GitHub CLI সব কিছু চালাতে পারবে—এমনকি future wallet integration বা API hosting প্রজেক্টও।
-  
-</mj>
+
+
+
+---
+
+---
+
+### 📄 **Script: `LaptopHealthReport.ps1`**
+
+```
+# Laptop Health HTML Report Generator for MJ - by Copilot
+
+$reportPath = "$env:USERPROFILE\Desktop\Laptop-Health-Report.html"
+$report = @()
+
+function Add-Section($title, $content) {
+    $report += "<h2 style='color:#2E86C1;'>$title</h2><pre>$content</pre>"
+}
+
+Add-Section "🔧 CPU Info" (
+    (Get-CimInstance Win32_Processor | 
+    Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed | 
+    Out-String)
+)
+
+Add-Section "💾 RAM Info" (
+    (Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, Capacity, Speed | Out-String) + 
+    (Get-CimInstance Win32_ComputerSystem | Select-Object TotalPhysicalMemory | Out-String)
+)
+
+Add-Section "📦 Storage Info" (
+    (Get-PhysicalDisk | Select-Object MediaType, Size, SerialNumber | Out-String) + 
+    (Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining, Size | Out-String)
+)
+
+Add-Section "🖥️ Display & Form Factor" (
+    (Get-CimInstance Win32_DesktopMonitor | Select-Object Name, ScreenHeight, ScreenWidth | Out-String) + 
+    (Get-CimInstance Win32_SystemEnclosure | Select-Object Manufacturer, ChassisTypes | Out-String)
+)
+
+Add-Section "⌨️ Keyboard & Ports" (
+    (Get-CimInstance Win32_Keyboard | Out-String) + 
+    (Get-CimInstance Win32_PnPEntity | Where-Object { $_.Name -like "*USB*" -or $_.Name -like "*Port*" } | Select-Object Name | Out-String)
+)
+
+Add-Section "🔐 BIOS Info" (
+    (Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, BIOSVersion | Out-String)
+)
+
+$body = @"
+<html><head>
+<title>Laptop Health Report</title>
+<style>
+body { font-family: Consolas; background:#F8F9F9; padding:20px; color:#1C2833; }
+h1 { color:#117A65; }
+</style>
+</head><body>
+<h1>💻 Laptop Health Report</h1>
+$($report -join "`n")
+<p style='color:#999;'>Generated on $(Get-Date)</p>
+</body></html>
+"@
+
+$body | Out-File -Encoding UTF8 -FilePath $reportPath
+
+Start-Process $reportPath
+```
+
+---
+
+### ⚙️ **চালানোর নির্দেশনা (লোকেশনে গিয়ে দ্রুত রান করার নিয়ম)**
+
+1. দোকানে গিয়ে যে ল্যাপটপ পরীক্ষা করবে, সেখানে **Notepad খুলে এই স্ক্রিপ্ট কপি করে পেস্ট করো**।
+
+2. `File` > `Save As` করে নাম দাও:  
+   `LaptopHealthReport.ps1`  
+   **Save as type:** All Files  
+   **Encoding:** UTF-8 (যদি দেওয়া থাকে)
+
+3. **ডেক্সটপ বা Download Folder-এ সেভ করো।**
+
+4. ফাইলের উপর **Right-click > Run with PowerShell** চাপো।
+
+5. স্ক্রিপ্ট চলার পর অটোমেটিক `Laptop-Health-Report.html` খুলে যাবে তোমার Desktop-এ।
+
+---
+
+💡 **ব্যাটারির রিপোর্ট আলাদা করে নিতে চাইলে:**
+```powershell
+powercfg /batteryreport
+```
+> এটা চালালে `C:\battery-report.html` নামে রিপোর্ট তৈরি হবে—ফাইলটি ওপেন করলেই স্ট্যাটাস দেখা যাবে।
+
+---
+
+😊🔧📊
