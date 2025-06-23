@@ -159,6 +159,73 @@ HYRA, NexaNode, GitHub, VS Code, VC JSON প্রজেক্ট নিয়ে �
 
 ---
 
+### 🎯 **Script: `Check-LaptopHealth.ps1`**
+```
+# Laptop Health Check Script - Created by Copilot for MJ
+
+Write-Host "`n🔍 Checking CPU Info..." -ForegroundColor Cyan
+Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
+
+Write-Host "`n🔍 Checking RAM Info..." -ForegroundColor Cyan
+Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, Capacity, Speed
+Get-CimInstance Win32_ComputerSystem | Select-Object TotalPhysicalMemory
+
+Write-Host "`n🔍 Checking Storage Info..." -ForegroundColor Cyan
+Get-PhysicalDisk | Select-Object MediaType, Size, SerialNumber
+Get-Volume | Select-Object DriveLetter, FileSystem, SizeRemaining, Size
+
+Write-Host "`n🔍 Checking Display & Form Factor..." -ForegroundColor Cyan
+Get-CimInstance Win32_DesktopMonitor | Select-Object Name, ScreenHeight, ScreenWidth
+Get-CimInstance Win32_SystemEnclosure | Select-Object Manufacturer, ChassisTypes
+
+Write-Host "`n🔍 Checking Keyboard & Ports..." -ForegroundColor Cyan
+Get-CimInstance Win32_Keyboard
+Get-CimInstance Win32_PnPEntity | Where-Object { $_.Name -like '*USB*' -or $_.Name -like '*Port*' } | Select-Object Name
+
+Write-Host "`n🔍 Checking BIOS Info..." -ForegroundColor Cyan
+Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, BIOSVersion
+
+Write-Host "`n✅ Basic Info Collected Successfully!" -ForegroundColor Green
+Write-Host "`nℹ️ For Battery Health, run: powercfg /batteryreport" -ForegroundColor Yellow
+```
+
+---
+
+### ⚙️ **চালানোর নির্দেশনা (Step-by-step)**
+
+1. **যেকোন পুরাতন ল্যাপটপে গিয়ে, নিচের কাজগুলো করো:**
+
+2. উইন্ডোজে **Notepad** খুলো এবং উপরের কোডটি কপি করে পেস্ট করো।
+
+3. `File` > `Save As`-এ গিয়ে `Check-LaptopHealth.ps1` নামে **.ps1** এক্সটেনশন দিয়ে **Desktop-এ সেভ করো**।
+
+4. ডেস্কটপে সেভ হওয়া স্ক্রিপ্টে **Right Click > Run with PowerShell** করো।
+
+5. উইন্ডোতে সিস্টেমের তথ্য আসতে থাকবে ধাপে ধাপে (CPU, RAM, Storage, Display ইত্যাদি)। স্ক্রল করে দেখে নিতে পারো।
+
+---
+
+### ✅ **বোনাস টিপস**
+- Battery রিপোর্ট দেখতে চাইলে রান করো:
+  ```
+  powercfg /batteryreport
+  ```
+  তারপর C:\ ড্রাইভে গিয়ে `battery-report.html` ফাইল ওপেন করো।
+
+- যদি স্ক্রিপ্ট চলতে না দেয়, তাহলে:
+  1. PowerShell-এ এই কমান্ড দাও:
+     ```
+     Set-ExecutionPolicy RemoteSigned
+     ```
+  2. `Y` চাপো — তারপর আবার স্ক্রিপ্ট রান করো।
+
+---
+
+? 😎📋
+
+
+---
+
 ### 📄 **Script: `LaptopHealthReport.ps1`**
 
 ```
